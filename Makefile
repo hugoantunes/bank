@@ -9,3 +9,6 @@ create-env:
 
 update-env:
 	${PIP} install -U -r requirements.txt
+
+migrate:
+	./manage.py migrate
