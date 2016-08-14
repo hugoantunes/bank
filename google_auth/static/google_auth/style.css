@@ -1,0 +1,25 @@
+.submit-row{
+    padding: 1em 0 0 3em!important;
+}
+
+input[type="submit"]{
+    margin-bottom: 5px;
+}
+
+.google-login{
+    background-image: url("/static/google_auth/btn_google_signin_light_normal_web.png");
+    display: inline-block;
+    height: 47px;
+    width: 191px;
+    vertical-align: bottom;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.google-login:hover{
+    background-image: url("/static/google_auth/btn_google_signin_light_focus_web.png");
+}
+
+.google-login:active{
+    background-image: url("/static/google_auth/btn_google_signin_light_pressed_web.png");
+}
