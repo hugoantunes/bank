@@ -38,8 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'google_auth',
     'social.apps.django_app.default',
+
+    'google_auth',
+    'bank_user',
 ]
 
 MIDDLEWARE_CLASSES = [
