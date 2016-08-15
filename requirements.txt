@@ -1,4 +1,4 @@
-giIappnope==0.1.0
+appnope==0.1.0
 decorator==4.0.10
 defusedxml==0.4.1
 Django==1.9.7
