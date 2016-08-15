@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export BANK_GOOGLE_OAUTH2_KEY=""
+export BANK_GOOGLE_OAUTH2_SECRET=""
