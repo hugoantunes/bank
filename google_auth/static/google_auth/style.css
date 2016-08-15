@@ -1,3 +1,8 @@
+body.login{
+    background-image: url("/static/google_auth/ruffus.jpg");
+    background-size: 324px 255px;
+}
+
 .submit-row{
     padding: 1em 0 0 3em!important;
 }
@@ -23,3 +28,4 @@ input[type="submit"]{
 .google-login:active{
     background-image: url("/static/google_auth/btn_google_signin_light_pressed_web.png");
 }
+
