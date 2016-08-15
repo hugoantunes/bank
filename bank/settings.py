@@ -148,5 +148,6 @@ SOCIAL_AUTH_PIPELINE = (
     'social.pipeline.social_auth.associate_user',
     'social.pipeline.social_auth.load_extra_data',
     'social.pipeline.user.user_details',
-    'google_auth.pipeline.set_access'
+    'google_auth.pipeline.set_access',
+    'google_auth.pipeline.add_bank_user_permission',
 )
