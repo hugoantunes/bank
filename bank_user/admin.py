@@ -14,4 +14,8 @@ class UserAdmin(admin.ModelAdmin):
         obj.created_by = request.user
         super(UserAdmin, self).save_model(request, obj, form, change)
 
+    def get_queryset(self, request):
+        queryset = super(UserAdmin, self).get_queryset(request)
+        return queryset.filter(created_by=request.user)
+
 admin.site.register(User, UserAdmin)
