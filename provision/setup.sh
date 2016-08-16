@@ -4,14 +4,7 @@
 
 # Installation settings
 
-PROJECT_NAME='bank'
-
 DB_NAME='bank'
-VIRTUALENV_NAME=$PROJECT_NAME
-
-PROJECT_DIR=/home/vagrant/$PROJECT_NAME
-VIRTUALENV_DIR=/home/vagrant/.virtualenvs/$PROJECT_NAME
-LOCAL_SETTINGS_PATH="/$PROJECT_NAME/settings/local.py"
 
 # Install essential packages from Apt
 #apt-get update -y
